@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@hotwired/turbo": "^7.0.0-beta.4",
-    "@rails/actioncable": "^6.1.0"
+    "@rails/actioncable": "https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127",
+    "@rails/actioncable/src": "https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^11.0.1",

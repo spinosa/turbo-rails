@@ -13,9 +13,9 @@
     "release": "npm publish && git commit -am \"$npm_package_name v$npm_package_version\" && git push"
   },
   "dependencies": {
-    "@hotwired/turbo": "^7.0.0-beta.4",
-    "@rails/actioncable": "https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127",
-    "@rails/actioncable/src": "https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127"
+    "@hotwired/turbo": "^7.0.0-beta.5",
+    "@rails/actioncable": "https://gitpkg.now.sh/spinosa/rails/actioncable?67d7c33a03b3347a1216a4922d5348d5bdadb3bb",
+    "@rails/actioncable/src": "https://gitpkg.now.sh/spinosa/rails/actioncable?67d7c33a03b3347a1216a4922d5348d5bdadb3bb"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^11.0.1",

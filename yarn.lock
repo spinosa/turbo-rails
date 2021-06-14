@@ -23,14 +23,14 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@hotwired/turbo@^7.0.0-beta.4":
-  version "7.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-7.0.0-beta.4.tgz#be6d7014902d45121f56358d360e0810bad4c19e"
-  integrity sha512-koox7UeA2Na0tLBPesxNO3nk/gtezRxF33NHKbAx+zv5s2k1Xh/orB5xNr5dAckoUj3Pdpytnw41WH4QB1jYBg==
+"@hotwired/turbo@^7.0.0-beta.7":
+  version "7.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@hotwired/turbo/-/turbo-7.0.0-beta.7.tgz#0f519af4e63698a9fb44d2db9019cdb5ddd048db"
+  integrity sha512-w4Oajhnqnz+b2rM325FjPnENVij1yWJy+q6bwSgmCvRG4715T7PoC6YwTPd4h6PVUGgy5WpqgDadzKdEV+qtLw==
 
-"@rails/actioncable/src@https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127", "@rails/actioncable@https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127":
+"@rails/actioncable/src@https://gitpkg.now.sh/spinosa/rails/actioncable?2d867a2d8f51d16756416be1edb2144f4dde0c10", "@rails/actioncable@https://gitpkg.now.sh/spinosa/rails/actioncable?2d867a2d8f51d16756416be1edb2144f4dde0c10":
   version "7.0.0-alpha"
-  resolved "https://gitpkg.now.sh/spinosa/rails/actioncable?113da9068a70341f3a247d3b13f967fc5a790127#bf7656a35ba78229032130083e28104b6849daa2"
+  resolved "https://gitpkg.now.sh/spinosa/rails/actioncable?2d867a2d8f51d16756416be1edb2144f4dde0c10#c5e87a957278ec37cb8884d78b265dc352419f3b"
 
 "@rollup/plugin-node-resolve@^11.0.1":
   version "11.0.1"

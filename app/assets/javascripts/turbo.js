@@ -3353,7 +3353,7 @@ customElements.define("turbo-cable-stream-source", TurboCableStreamSourceElement
         return this.monitor.recordPing();
 
        case message_types.confirmation:
-        this.subscriptions.confirm_subscription(identifier);
+        this.subscriptions.confirmSubscription(identifier);
         return this.subscriptions.notify(identifier, "connected");
 
        case message_types.rejection:
@@ -3430,7 +3430,7 @@ customElements.define("turbo-cable-stream-source", TurboCableStreamSourceElement
       this.pendingSubscriptions = [];
     }
     SubscriptionGuarantor.prototype.guarantee = function guarantee(subscription) {
-      if (!this.pendingSubscriptions.includes(subscription)) {
+      if (this.pendingSubscriptions.indexOf(subscription) == -1) {
         logger.log("SubscriptionGuarantor guaranteeing " + subscription.identifier);
         this.pendingSubscriptions.push(subscription);
       } else {
@@ -3545,7 +3545,7 @@ customElements.define("turbo-cable-stream-source", TurboCableStreamSourceElement
         this.guarantor.guarantee(subscription);
       }
     };
-    Subscriptions.prototype.confirm_subscription = function confirm_subscription(identifier) {
+    Subscriptions.prototype.confirmSubscription = function confirmSubscription(identifier) {
       var _this4 = this;
       logger.log("Subscription confirmed " + identifier);
       this.findAll(identifier).map((function(subscription) {
